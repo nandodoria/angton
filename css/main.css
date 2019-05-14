@@ -1,9 +1,3 @@
-/*
-  Theme Name: Rapid
-  Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -171,7 +165,7 @@ h6 {
 #header.header-pages {
   height: 70px;
   padding: 15px 0;
-  background-color: #fff;
+  background-color: #004276;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -196,10 +190,9 @@ h6 {
   text-decoration: none;
 }
 
-#header .logo img {
-  padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+#angtonlogo {
+  padding-bottom: 10px;
+  max-height: 56px;
 }
 
 .main-pages {
@@ -219,14 +212,14 @@ h6 {
 }
 
 #intro .intro-info h2 {
-  color: #413e66;
+  color: #fff;
   margin-bottom: 40px;
-  font-size: 48px;
+  font-size: 50px;
   font-weight: 700;
 }
 
 #intro .intro-info h2 span {
-  color: #1bb1dc;
+  color: #FDBE0F;
 }
 
 #intro .intro-info .btn-get-started,
@@ -243,6 +236,7 @@ h6 {
   color: #fff;
   background: #1bb1dc;
   color: #fff;
+  margin-top: 40px;
 }
 
 #intro .intro-info .btn-get-started:hover,
@@ -692,7 +686,7 @@ h6 {
 --------------------------------*/
 
 #call-to-action {
-  background: #2d2b46;
+  background: #004276;
   background-size: cover;
   padding: 40px 0;
 }
