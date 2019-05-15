@@ -475,7 +475,7 @@ h6 {
 --------------------------------*/
 
 .section-header h3 {
-  font-size: 36px;
+  font-size: 46px;
   color: #004276;
   text-align: center;
   font-weight: 700;
@@ -501,13 +501,18 @@ h6 {
 
 /* About Us Section
 --------------------------------*/
+.promo{
+width: 100%;
+
+}
+
 
 #about {
   padding: 80px 0;
 }
 
 #about .about-content {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #about .about-content h2 {
@@ -586,6 +591,12 @@ h6 {
   padding: 60px 0 40px 0;
 }
 
+.serv_icon
+{
+  max-width: 60px;
+  padding-bottom: 60px;
+}
+
 #services .box {
   padding: 30px;
   position: relative;
@@ -624,12 +635,13 @@ h6 {
   font-size: 18px;
 }
 
-#services .title a {
-  color: #111;
+#services .title {
+  color: #4E4E4E;
+  cursor: auto;
 }
 
-#services .box:hover .title a {
-  color: #1bb1dc;
+#services .box:hover .title {
+  color: #004276;
 }
 
 #services .description {
@@ -1224,7 +1236,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  padding: 0 0 30px 0;
+  padding: 0 0 0px 0;
   font-size: 14px;
   background: #fff;
 }
@@ -1419,23 +1431,25 @@ h6 {
 }
 
 #footer .footer-top .form button[type="submit"] {
-  background: #1bb1dc;
+  background: #004276;
   border: 0;
   border-radius: 3px;
   padding: 8px 30px;
   color: #fff;
   transition: 0.3s;
+  float: right;
 }
 
 #footer .footer-top .form button[type="submit"]:hover {
-  background: #0a98c0;
+  background: #FDBE0F;
   cursor: pointer;
 }
 
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #535074;
+  padding-bottom: 30px;
+  color: #004276;
   font-size: 15px;
 }
 
