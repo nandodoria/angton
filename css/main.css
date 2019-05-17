@@ -6,7 +6,7 @@
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
@@ -33,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -44,7 +44,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #1bb1dc;
+  background: #004276;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -82,7 +82,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #1bb1dc;
+  border-top: 6px solid #004276;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -211,6 +211,12 @@ h6 {
   background-size: cover;
 }
 
+.intro_icon
+{
+  max-width: 90px;
+  margin-bottom: 15px;
+}
+
 #intro .intro-info h2 {
   color: #fff;
   margin-bottom: 40px;
@@ -224,24 +230,27 @@ h6 {
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
-  font-family: "Montserrat", sans-serif;
-  font-size: 13px;
-  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 32px;
-  border-radius: 4px;
+
+  
+  padding: 15px 40px;
+  border-radius: 2px;
+  margin-right: 10px;
+  float: left;
   transition: 0.5s;
-  color: #fff;
-  background: #1bb1dc;
-  color: #fff;
-  margin-top: 40px;
+  color: #fdbe0f;
+  background: #ffffff;
+
 }
+
 
 #intro .intro-info .btn-get-started:hover,
 #intro .intro-info .btn-services:hover {
-  background: #0a98c0;
+  background: #fdbe0f;
+  color: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -271,11 +280,11 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+  color: #ffffff;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
 }
@@ -283,7 +292,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #1bb1dc;
+  color: #FDBE0F;
   text-decoration: none;
 }
 
@@ -364,7 +373,7 @@ h6 {
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: rgba(40, 38, 70, 0.8);
+  background: #004276;
   transition: 0.4s;
 }
 
@@ -379,13 +388,13 @@ h6 {
   position: relative;
   color: #fff;
   padding: 10px 20px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #8dc2fa;
+  color: #FDBE0F;
   text-decoration: none;
 }
 
@@ -431,7 +440,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #065e77;
+  color: #fff;
 }
 
 .mobile-nav-overly {
@@ -441,7 +450,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(40, 38, 70, 0.8);
+  background: rgba(0, 0, 0, 0.671);
   overflow: hidden;
   display: none;
 }
@@ -466,12 +475,12 @@ h6 {
 --------------------------------*/
 
 .section-header h3 {
-  font-size: 36px;
-  color: #413e66;
+  font-size: 46px;
+  color: #004276;
   text-align: center;
   font-weight: 700;
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .section-header p {
@@ -479,7 +488,7 @@ h6 {
   margin: auto;
   font-size: 15px;
   padding-bottom: 60px;
-  color: #535074;
+  color: #4E4E4E;
   width: 50%;
 }
 
@@ -487,23 +496,28 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #f5f8fd;
+  background: #f6f8f9;
 }
 
 /* About Us Section
 --------------------------------*/
+.promo{
+width: 100%;
+
+}
+
 
 #about {
   padding: 80px 0;
 }
 
 #about .about-content {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 #about .about-content h2 {
-  color: #413e66;
-  font-family: "Montserrat", sans-serif;
+  color: #4E4E4E;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
 }
 
@@ -554,7 +568,7 @@ h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  background-color: #00437607;
   transition: .5s;
 }
 
@@ -566,7 +580,7 @@ h6 {
   height: 92%;
   z-index: -1;
   content: '';
-  background-color: #ebf1fa;
+  background-color: #00437607;
   transition: .5s;
 }
 
@@ -575,6 +589,12 @@ h6 {
 
 #services {
   padding: 60px 0 40px 0;
+}
+
+.serv_icon
+{
+  max-width: 60px;
+  padding-bottom: 60px;
 }
 
 #services .box {
@@ -615,12 +635,13 @@ h6 {
   font-size: 18px;
 }
 
-#services .title a {
-  color: #111;
+#services .title {
+  color: #4E4E4E;
+  cursor: auto;
 }
 
-#services .box:hover .title a {
-  color: #1bb1dc;
+#services .box:hover .title {
+  color: #004276;
 }
 
 #services .description {
@@ -667,7 +688,7 @@ h6 {
 }
 
 #why-us .counters span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
@@ -677,7 +698,7 @@ h6 {
 #why-us .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #8a87b6;
 }
@@ -702,7 +723,7 @@ h6 {
 }
 
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
@@ -716,8 +737,8 @@ h6 {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1bb1dc;
-  border: 3px solid #1bb1dc;
+  background: #FDBE0F;
+  border: 3px solid #FDBE0F;
 }
 
 /* Features Section
@@ -752,15 +773,16 @@ h6 {
   display: inline-block;
   padding: 6px 10px;
   font-size: 16px;
+  font-weight: 700;
   line-height: 20px;
-  color: #413e66;
+  color: #004276;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #1bb1dc;
+  color: #fdbe0f;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -844,7 +866,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #1bb1dc;
+  background: #004276;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -858,7 +880,7 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #42c3e8;
+  background: #fdbe0f;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
@@ -867,11 +889,16 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
-  background: #282646;
+  background: #030305;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
+}
+
+.project_indiv
+{
+  color: #ffffff;
 }
 
 /* Testimonials Section
@@ -928,7 +955,7 @@ h6 {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #1bb1dc;
+  background-color: #004276;
 }
 
 /* Team Section
@@ -1047,7 +1074,7 @@ h6 {
 }
 
 #clients .owl-dot.active {
-  background-color: #1bb1dc;
+  background-color: #FDBE0F;
 }
 
 /* Pricing Section
@@ -1174,7 +1201,7 @@ h6 {
   padding: 22px 0;
   display: block;
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   line-height: 1;
   font-weight: 400;
@@ -1209,7 +1236,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  padding: 0 0 30px 0;
+  padding: 0 0 0px 0;
   font-size: 14px;
   background: #fff;
 }
@@ -1228,7 +1255,7 @@ h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #413e66;
   font-weight: 400;
   letter-spacing: 3px;
@@ -1239,7 +1266,7 @@ h6 {
   font-size: 13px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #535074;
 }
 
@@ -1404,23 +1431,25 @@ h6 {
 }
 
 #footer .footer-top .form button[type="submit"] {
-  background: #1bb1dc;
+  background: #004276;
   border: 0;
   border-radius: 3px;
   padding: 8px 30px;
   color: #fff;
   transition: 0.3s;
+  float: right;
 }
 
 #footer .footer-top .form button[type="submit"]:hover {
-  background: #0a98c0;
+  background: #FDBE0F;
   cursor: pointer;
 }
 
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-  color: #535074;
+  padding-bottom: 30px;
+  color: #004276;
   font-size: 15px;
 }
 
